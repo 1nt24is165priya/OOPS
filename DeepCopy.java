@@ -11,6 +11,12 @@ public class DeepCopy {
 
         s1.marks[2] = 91;
 
+        System.out.println("Below are marks of s1");
+        for(int i=0; i<3;i++){
+            System.out.println(s1.marks[i]);
+        }
+
+        System.out.println("Below are marks of s2");
         for (int i = 0; i < 3; i++) {
             System.out.println(s2.marks[i]);
         }
